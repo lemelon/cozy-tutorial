@@ -1,27 +1,18 @@
 {
-  	"name": "cozysdk-client",
-  	"version": "0.0.1",
-  	"description": "SDK for serverless cozy apps",
-  	"main": "build/cozysdk-client.js",
-  	"scripts": {
-	    "build": "coffee -cb --output lib src && browserify lib/index.js --debug --s cozysdk | exorcist dist/cozysdk-client.js.map > dist/cozysdk-client.js ",
-	    "prepublish": "npm run build"
-  	},
-  	"repository": {
-  		"type": "git",
-  		"url": "http://github.com/cozy/cozysdk-client"
-  	},
-  	"author": "cozy",
-  	"license": "MIT",
-  	"bugs": {
-    	"url": "https://github.com/cozy/cozysdk-client/issues"
-  	},
-  	"homepage": "https://github.com/cozy/cozysdk-client",
-  	"devDependencies": {
-	    "coffee-jshint": "0.2.2",
-	    "coffee-script": "1.8.0",
-	    "coffeelint": "1.8.1",
-	    "browserify": "13.0.0",
-	    "exorcist": "0.4.0"
-  	}
+    "name": "cozy-sdk-client-tuto-backbone",
+    "version": "0.0.1",
+    "description": "An application to get you started with serverless web app development and Cozy.",
+    "cozy-type": "static",
+    "cozy-displayName": "Serverless app example",
+    "icon-path": "main_icon.png",
+    "author": "lemelon",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lemelon/cozysdk-client-tuto-backbone.git"
+    },
+    "cozy-permissions": {
+        "Contact": {
+            "description": "To easily find your contact when talking about someone."
+        }
+    }
 }

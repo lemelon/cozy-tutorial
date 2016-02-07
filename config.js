@@ -7,9 +7,9 @@ require.config({
 
   paths: {
     // Libraries
-    jquery: "libs/jquery.min",
-    lodash: "libs/lodash.min",
-    backbone: "libs/backbone.min"
+    jquery: "vendor/jquery.min",
+    lodash: "vendor/lodash.min",
+    backbone: "vendor/backbone.min"
   },
 
   shim: {
